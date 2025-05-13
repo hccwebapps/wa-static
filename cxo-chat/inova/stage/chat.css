@@ -1,0 +1,15 @@
+/* Apply font-size only to elements with class names that begin with 'UserProfile_UserProfile__' */
+[class^="UserProfile_UserProfile__"] {
+    font-size: 12px;
+}
+
+/* Apply style (hide) to elements with class names that begin with 'BrandLabel_BrandLabel__' */
+[class^="BrandLabel_BrandLabel__"] {
+    display: none !important;
+}
+
+
+/* Apply text-align to elements with class names that begin with 'StartSession_Main__' */
+[class^="StartSession_Main__"] {
+    text-align: left;
+}
