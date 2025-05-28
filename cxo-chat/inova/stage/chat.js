@@ -1,5 +1,4 @@
 parent.cxone('chat', 'setCustomCss', '[data-selector="ACTIVITY_BAR"] {display: none !important;}');
-console.log("activity_bar hidden");
 
 parent.cxone('chat', 'onPushUpdate', ['CaseToRoutingQueueAssignmentChanged'], pushUpdatePayload => {
     if (!pushUpdatePayload?.data) {
