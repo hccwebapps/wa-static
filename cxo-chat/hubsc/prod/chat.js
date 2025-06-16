@@ -7,7 +7,7 @@ parent.cxone('chat', 'onPushUpdate', ['CaseToRoutingQueueAssignmentChanged'], pu
     }
 
     const skillIdTest = pushUpdatePayload.data.routingQueue?.skillId;
-    const hiddenSkillIds = [20899728, 20899729]; // Add more skill IDs here as needed
+    const hiddenSkillIds = [20899728, 20899729, 23125510, 23125511]; // Add more skill IDs here as needed
 
     if (hiddenSkillIds.includes(skillIdTest)) {
         console.log(pushUpdatePayload);
