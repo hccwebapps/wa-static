@@ -1,5 +1,3 @@
- brandembassy('setCustomerId', 'customer_id');
-
 parent.cxone('chat', 'setCustomCss', '[data-selector="ACTIVITY_BAR"] {display: none !important;}');
 
 parent.cxone('chat', 'onPushUpdate', ['CaseToRoutingQueueAssignmentChanged'], pushUpdatePayload => {
