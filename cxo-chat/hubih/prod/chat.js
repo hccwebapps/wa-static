@@ -1,4 +1,3 @@
-brandembassy('setCustomerId', 'customer_id');
 
 parent.cxone('chat', 'setCustomCss', '[data-selector="ACTIVITY_BAR"] {display: none !important;}');
 console.log("activity_bar hidden");
